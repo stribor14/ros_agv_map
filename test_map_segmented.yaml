@@ -1,0 +1,134 @@
+!!python/object:class_MapZones.MapZones
+neighbour_sills:
+  ? !!python/tuple [1, 2]
+  : [0.62, 8.05]
+  ? !!python/tuple [2, 1]
+  : [1.59, 8.05]
+  ? !!python/tuple [2, 3]
+  : [1.59, 8.05]
+  ? !!python/tuple [2, 8]
+  : [5.63, 8.05]
+  ? !!python/tuple [3, 2]
+  : [1.59, 7.15]
+  ? !!python/tuple [3, 4]
+  : [1.59, 5.15]
+  ? !!python/tuple [4, 3]
+  : [2.63, 5.15]
+  ? !!python/tuple [4, 6]
+  : [3.5, 5.15]
+  ? !!python/tuple [5, 6]
+  : [3.5, 3.05]
+  ? !!python/tuple [6, 4]
+  : [4.5, 5.15]
+  ? !!python/tuple [6, 5]
+  : [4.5, 3.05]
+  ? !!python/tuple [6, 7]
+  : [8.5, 3.05]
+  ? !!python/tuple [6, 8]
+  : [7.53, 5.0]
+  ? !!python/tuple [7, 6]
+  : [9.5, 3.05]
+  ? !!python/tuple [8, 2]
+  : [6.63, 8.05]
+  ? !!python/tuple [8, 6]
+  : [7.53, 5.0]
+  ? !!python/tuple [8, 9]
+  : [9.5, 6.94]
+  ? !!python/tuple [9, 8]
+  : [10.25, 6.94]
+neighbour_sill_quaternions:
+  ? !!python/tuple [1, 2]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [2, 1]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+  ? !!python/tuple [2, 3]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, -0.7071, 0.7071]
+  ? !!python/tuple [2, 8]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [3, 2]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.7071, 0.7071]
+  ? !!python/tuple [3, 4]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [4, 3]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+  ? !!python/tuple [4, 6]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [5, 6]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [6, 4]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+  ? !!python/tuple [6, 5]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+  ? !!python/tuple [6, 7]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [6, 8]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.6088, 0.7934]
+  ? !!python/tuple [7, 6]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+  ? !!python/tuple [8, 2]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+  ? !!python/tuple [8, 6]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, -0.7934, 0.6088]
+  ? !!python/tuple [8, 9]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 0.0, 1.0]
+  ? !!python/tuple [9, 8]
+  : !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+    state: [0.0, 0.0, 1.0, 0.0]
+zone_neighbours:
+  1: [2]
+  2: [1, 3, 8]
+  3: [2, 4]
+  4: [3, 6]
+  5: [6]
+  6: [4, 5, 7, 8]
+  7: [6]
+  8: [2, 6, 9]
+  9: [8]
+zone_value:
+  ? &id004 !!python/object:class_MapZones.Zone {x1: 2.13, x2: 4.15, y1: 4.69, y2: 5.61}
+  : 2
+  ? &id005 !!python/object:class_MapZones.Zone {x1: 0.18, x2: 4.15, y1: 2.55, y2: 3.55}
+  : 4
+  ? &id006 !!python/object:class_MapZones.Zone {x1: 4.15, x2: 8.97, y1: 2.55, y2: 5.61}
+  : 1
+  ? &id003 !!python/object:class_MapZones.Zone {x1: 1.06, x2: 2.13, y1: 4.69, y2: 7.65}
+  : 2
+  ? &id002 !!python/object:class_MapZones.Zone {x1: 1.06, x2: 6.13, y1: 7.65, y2: 8.46}
+  : 2
+  ? &id009 !!python/object:class_MapZones.Zone {x1: 10.01, x2: 10.92, y1: 6.5, y2: 7.38}
+  : 4
+  ? &id007 !!python/object:class_MapZones.Zone {x1: 8.97, x2: 10.01, y1: 2.55, y2: 3.55}
+  : 4
+  ? &id008 !!python/object:class_MapZones.Zone {x1: 6.13, x2: 10.01, y1: 4.69, y2: 8.46}
+  : 1
+  ? &id001 !!python/object:class_MapZones.Zone {x1: 0.18, x2: 1.06, y1: 7.65, y2: 8.46}
+  : 4
+zones:
+- dummy
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+
